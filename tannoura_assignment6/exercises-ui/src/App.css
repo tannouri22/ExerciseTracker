@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  font-size: large;
+  background-color: rgb(141, 157, 228);
+  color: beige;
+  margin: 0% 2%;
+  padding: 0;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+p {
+  font-size: 25px;
+}
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #fb61cd;
+}
+
+.table-button {
+  padding: 0.5%;
+  background-color: rgb(248, 152, 7);
+  color: rgb(138, 108, 43);
+  text-decoration: none;
+  line-height: 1.5;
+  vertical-align: middle;
+  border-radius: 3px;
+  font-weight: bold;
+  
+  margin: 0 3%;
+}
+
+input, button, select {
+  padding: 1%;
+  font-size: larger;
+}
+nav {
+  text-align: center;
+  padding: 2%;
+}
+nav a {
+  padding: 1%;
+  background-color: rgb(221, 218, 19);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  line-height: 1.5;
+  vertical-align: middle;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0 3%;
+}
+
+nav a:hover{
+  background-color: rgb(21, 116, 60);
+  color: rgb(243, 243, 243);
+}
+
+table {
+  border-collapse: collapse;
+  border: 10px white;
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f242;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #16d154;
+  color: white;
+}
